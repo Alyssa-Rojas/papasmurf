@@ -13,9 +13,19 @@ body {
     overflow: hidden;
 }
 
+.container {
+    background-color: #fafafa;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 50px;
+}
+
 nav {
     position: fixed;
+}
 
+nav ul li {
+    text-transform: uppercase;
 }
 
 nav a {
