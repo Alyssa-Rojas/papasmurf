@@ -21,7 +21,8 @@ body {
 }
 
 nav {
-    position: fixed;
+    position: relative;
+    font-size: 25px;
 }
 
 nav ul li {
