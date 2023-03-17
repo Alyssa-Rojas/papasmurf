@@ -1,3 +1,25 @@
-.rect {
-    height: 
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: #ff5050;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+}
+
+nav a {
+    color: #fafafa;
+    text-decoration: none;
 }
