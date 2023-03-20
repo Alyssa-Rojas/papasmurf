@@ -20,16 +20,18 @@ body {
     padding: 50px;
 }
 
-nav {
+.btn {
     position: relative;
     font-size: 25px;
+    background-color: #9f68e0;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-nav ul li {
-    text-transform: uppercase;
-}
-
-nav a {
-    color: #fafafa;
-    text-decoration: none;
+.btn:active {
+    transform: scale(0.95);
 }
