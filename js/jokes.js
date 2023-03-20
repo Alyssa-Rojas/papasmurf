@@ -8,3 +8,8 @@ async function generateJoke() {
         headers: {Accept: 'application/json'}
     })
 
+
+    const data = await response.json()
+    joke.El innerHTML= date.joke
+
+}
