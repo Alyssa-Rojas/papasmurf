@@ -5,6 +5,11 @@ counters.forEach(counter => {
 
     const updateCounter = () => {
         const target = counter.getAttribute('data-target')
-        console.log(target)
+        const c = +counter.innerText
+        const increment = 1
+
+        if (c < target) {
+            counter.innerText = `${Math.ceil(c + increment)}`
+        }
     }
 })
