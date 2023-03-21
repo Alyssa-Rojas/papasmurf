@@ -26,6 +26,7 @@ body {
     padding: 15px;
     border: 0;
     width: 50px;
+    transition: width 1s ease;
 }
 
 .search .btn {
@@ -37,4 +38,17 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    transition: transform 1s ease;
+}
+
+.search.active .input {
+    width: 200px;
+}
+
+.search.active .btn {
+    transform: translateX(199px);
+}
+
+.input:focus {
+    outline: none;
 }
