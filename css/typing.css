@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+JP&display=swap');
+
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+}
