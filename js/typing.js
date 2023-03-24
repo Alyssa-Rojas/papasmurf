@@ -1,6 +1,6 @@
 const textEl = document.getElementById('text')
 const speedEl = document.getElementById('speed')
-const text = "My dog died :("
+const text = "whipped and nae naed"
 let idx = 1
 let speed = 300 / speedEl.value
 speedEl.addEventListener('input', (element) => {
