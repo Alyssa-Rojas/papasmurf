@@ -3,6 +3,8 @@ const speedEl = document.getElementById('speed')
 const text = "whipped and nae naed"
 let idx = 1
 let speed = 300 / speedEl.value
+
+
 speedEl.addEventListener('input', (element) => {
     speed = 300 / element.target.value
 })
