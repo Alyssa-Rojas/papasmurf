@@ -2,7 +2,10 @@
 body {
     display: flex;
     background-color: #a19aff;
-
+    margin: 0;
+    overflow-x: hidden;
 }
 
-.container
+.container {
+    
+}
