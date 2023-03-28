@@ -4,8 +4,11 @@ body {
     background-color: #a19aff;
     margin: 0;
     overflow-x: hidden;
+    position: center;
 }
 
-.container {
-    
+.circle-container {
+    position: fixed;
+    top: -100px;
+    left:-100px;
 }
