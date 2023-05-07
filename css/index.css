@@ -9,23 +9,22 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    overflow: hidden;
 }
 
 .container {
     width: 100vw;
     min-height: 100vh;
-    padding: 50px;
+    padding: 50px 40px;
     text-align: center;
     width: 800px;
     font-size: 50px;
-    position: relative;
+    margin: 50px auto;
     display: flex;
 }
 
 .btn {
-    position: relative;
+    position: center;
+    display: flex;
     font-size: 25px;
     background-color: #A90F38;
     color: #fff;
