@@ -1,7 +1,4 @@
 
-* {
-    box-sizing: border-box
-}
 
 body {
     background-color: #ff5050;
@@ -24,7 +21,6 @@ body {
 
 .btn {
     position: center;
-    display: flex;
     font-size: 25px;
     background-color: #A90F38;
     color: #fff;
