@@ -21,6 +21,7 @@ body {
 
 .btn {
     position: center;
+    max-width: 100px;
     font-size: 25px;
     background-color: #A90F38;
     color: #fff;
