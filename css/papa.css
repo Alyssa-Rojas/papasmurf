@@ -18,7 +18,7 @@ body {
 }
 
 .container.show-nav {
-    transition: margin-right 4s;
+    animation: slide 1.5s linear 1s forwards;
 }
 
 .circle-container {
@@ -31,7 +31,7 @@ body {
     height: 200px;
     width: 200px;
     background-color: #ff7979;
-
+    border-radius: 50%;
     position: relative;
 }
 
