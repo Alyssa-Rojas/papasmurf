@@ -31,13 +31,12 @@ body {
     height: 200px;
     width: 200px;
     background-color: #ff7979;
-
-    transform: translateX(-200%);
+    transition: transform 1s linear;
     position: relative;
 }
 
 .container.show-nav .circle {
-    transform: rotate(-70deg);
+    transition: margin-right 4s;
 }
 
 .circle button {
