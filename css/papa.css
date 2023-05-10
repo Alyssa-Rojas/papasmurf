@@ -13,7 +13,8 @@ body {
     width: 100vw;
     min-height: 100vh;
     padding: 50px;
-    transition: transform 1s linear;
+    transition: margin-right 2s .5s;
+    transform-origin: top left;
 }
 
 .container.show-nav {
