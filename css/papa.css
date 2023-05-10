@@ -63,7 +63,7 @@ body {
 
 
 .container.show-nav + nav li {
-    transform: translateX(0);
+    transform: translateX(30);
     transition-delay: 0.5s;
 }
 
