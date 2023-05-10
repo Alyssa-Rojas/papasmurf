@@ -28,7 +28,16 @@ body {
 }
 
 .bar-container {
+    position: fixed;
+    left: -100px;
     transform: translateX(-200%);
+}
+
+.bar {
+    height: 100px;
+    width: 100px;
+    background-color: #ff7979;
+    position: relative;
 }
 
 .circle {
