@@ -9,12 +9,11 @@ body {
 }
 
 .container {
-    background-color: #c080ff;
+    background-color: #ffa8d1;
     width: 100vw;
     min-height: 100vh;
     padding: 50px;
     transition: transform 1s linear;
-    transform-origin: top left;
 }
 
 .container.show-nav {
