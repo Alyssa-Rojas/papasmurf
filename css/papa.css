@@ -83,25 +83,10 @@ nav ul li {
     text-transform: uppercase;
     color: #ffffff;
     margin: 40px;
-    transform: translateX(-100%);
+    transform: translateX(-200%);
     transition: transform 1s ease-in;
 }
 
-nav ul li i {
-    font-size: 20px;
-    margin-right: 30px;
-    transform: translateX(-200%);
-}
-
-nav ul li + li {
-    margin-left: 30px;
-    transform: translateX(-200%);
-}
-
-nav ul li + li + li {
-    margin-left: 30px;
-    transform: translateX(-200%);
-}
 
 nav a {
     color: #fafafa;
