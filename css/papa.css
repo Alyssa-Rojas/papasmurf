@@ -65,12 +65,12 @@ body {
 }
 
 .circle button#open {
-    left: 60%;
+    left: -40%;
+
 }
 
 .circle button#close {
-    top: 60%;
-    transform: rotate(90deg);
+    transform: translateX(-10);
     transform-origin: top left;
 }
 
