@@ -44,7 +44,7 @@ body {
     height: 200px;
     width: 200px;
     background-color: #ff7979;
-    transition: transform 1s linear;
+    transition: margin-right 2s .5s;
     position: relative;
 }
 
