@@ -1,12 +1,11 @@
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
 
-const open = document.getElementById('open')
-const close = document.getElementById('close')
-const container = document.querySelector('.container')
-
-open.addEventListener('click', () => {
-    container.classList.add('show-nav')
-})
-
-close.addEventListener('click', () => {
-    container.classList.remove('show-nav')
-})
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
