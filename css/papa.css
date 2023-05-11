@@ -87,6 +87,7 @@ nav {
 }
 
 
+
 nav ul {
         list-style-type: none;
         margin: 0;
@@ -101,6 +102,10 @@ nav ul li {
     transition: transform 1s ease-in;
 }
 
+li a {
+    display: block;
+    width: 60px;
+  }
 
 nav a {
     color: #fafafa;
