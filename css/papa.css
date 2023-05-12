@@ -1,7 +1,9 @@
 
 body {
-    color: #818181;
+    color: #000000;
     background-color: #625cd7;
+    align-items: center;
+    justify-content: center;
 }
 
 .sidenav {
