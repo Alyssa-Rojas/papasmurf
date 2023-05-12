@@ -4,12 +4,7 @@ body {
     background-color: #625cd7;
 }
 
-.main {
-    display: flex;
-    max-width: 500px;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .sidenav {
     height: 100%;
