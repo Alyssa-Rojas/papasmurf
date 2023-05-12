@@ -52,7 +52,7 @@ body {
     .sidenav a {font-size: 18px;}
 }
 
-.main btn {
+.main button {
     position: center;
     max-width: 100px;
     font-size: 25px;
