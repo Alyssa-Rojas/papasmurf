@@ -52,7 +52,8 @@ body {
 
 .btn {
     display: flex;
-    background-color: var(--blue);
+    flex-direction: row;
+    
     border: 0;
     margin: 5px;
     padding: 8px 30px;
