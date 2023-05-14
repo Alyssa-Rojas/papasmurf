@@ -42,6 +42,9 @@ body {
     transition: margin-left .5s;
     padding: 16px;
     font-size: 20px;
+    position: center;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-height: 450px) {
