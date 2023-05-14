@@ -50,7 +50,7 @@ body {
     .sidenav a {font-size: 18px;}
 }
 
-#main btn {
+.btn {
     display: flex;
     background-color: var(--blue);
     border: 0;
