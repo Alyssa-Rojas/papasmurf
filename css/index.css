@@ -50,6 +50,6 @@ body {
     .sidenav a {font-size: 18px;}
 }
 
-#main button {
+#main btn {
     display: flex;
 }
