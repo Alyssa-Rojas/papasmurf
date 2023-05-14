@@ -43,16 +43,6 @@ body {
     transition: margin-left .5s;
     padding: 16px;
     position: center;
-    max-width: 100px;
-    font-size: 25px;
-    background-color: #A90F38;
-    color: #fff;
-    border: 0;
-    border-radius: 10px;
-    padding: 20px 40px;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 10px;
 }
 
 @media screen and (max-height: 450px) {
@@ -60,10 +50,6 @@ body {
     .sidenav a {font-size: 18px;}
 }
 
-.main button {
-
-}
-
-.btn:active {
-    transform: scale(0.95);
+#main button {
+    display: flex;
 }
