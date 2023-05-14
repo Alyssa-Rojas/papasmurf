@@ -42,7 +42,8 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-height: 450px) {
