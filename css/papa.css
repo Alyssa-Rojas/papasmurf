@@ -1,7 +1,8 @@
 
 body {
-    color: #4200a0;
+    color: #71788e;
     background-color: #191d21;
+
 }
 
 .sidenav {
@@ -41,6 +42,7 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
+    
 }
 
 @media screen and (max-height: 450px) {
