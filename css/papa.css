@@ -2,6 +2,9 @@
 body {
     color: #71788e;
     background-color: #191d21;
+    align-items: center;
+    max-width: 2000px;
+    overflow: hidden;
 
 }
 
